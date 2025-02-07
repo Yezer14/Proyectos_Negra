@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Propuesta de San Valentín</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Floating hearts background -->
+        <div class="hearts-container" id="heartsContainer"></div>
+
+        <!-- Main content -->
+        <div class="content" id="mainContent">
+            <div class="image-container">
+                <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=600&q=80" 
+                     alt="Beautiful lilies" 
+                     class="roses-image">
+            </div>
+
+            <h1>Mi Amor ❤️</h1>
+            <p>¿Quieres ser mi San Valentín?</p>
+
+            <button id="revealBtn" class="download-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Presiona aquí
+            </button>
+        </div>
+
+        <!-- Message container -->
+        <div class="message-container" id="messageContainer">
+            <div class="message" id="message">
+                <!-- The message will be inserted here via JavaScript -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
